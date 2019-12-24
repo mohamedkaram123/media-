@@ -1,0 +1,673 @@
+
+
+
+/*box border*/
+
+.rows{
+    margin-top: 40px;
+}
+.box-border{
+    border:1px solid #DADDE1;
+    border-radius: 2%;
+    width: 600px;
+    position: relative;
+ 
+    background: #fff;;
+    margin-bottom: 20px;
+
+}
+
+ .bac{
+    background: #f3f3f3;
+    padding-bottom: 20px;
+}
+
+.box-border .box-top{
+    border-bottom: 1px solid #DADDE1;
+    height: 35px;
+}
+
+
+.box-border .box-top span{
+    margin-left: 10px;
+    vertical-align: middle;
+}
+
+
+.box-border .counte {
+    background: #fff;
+}
+
+.box-border .text-box{
+    resize: none;
+    overflow: hidden;
+    width: 470px;
+    border: none;
+    box-shadow: none;
+    border-style: hidden;
+    margin-top: 20px;
+    margin-left: 10px;
+    margin-bottom: 70px;
+
+}
+
+textarea:hover, input:hover, textarea:active, input:active, textarea:focus, input:focus {
+    outline:0px !important;
+}
+
+.fontsize{
+    font-size: 28px;
+    line-height: 34px;
+}
+
+
+
+.text-box::-webkit-input-placeholder { /* Edge */
+    font-size: 20px;
+    color: #999;
+    font-weight: bold;
+  }
+  
+
+  .conimg-box{
+    width: 60px;
+    height: 60px;
+    border: 0.3px solid #007bff;
+    border-radius: 50%;
+
+    position: absolute;
+    top: 50px;
+    left: 510px;
+
+    cursor: pointer;
+    background: #fff;
+    border-style: hidden;
+}
+
+
+
+.conimg-box .img-box{
+ 
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: #fff;
+    overflow: hidden;
+    border-radius: 50%;
+    cursor: pointer;
+}
+
+
+.box-border .uploadphoto{
+    border-top: 1px solid #DADDE1;
+    margin-bottom: 0px;
+  
+    background: #fff;
+    border-bottom: 1px solid #DADDE1;
+}
+
+.uploadphoto .filechose{
+    opacity: 0;
+    width: 80px;
+    height: 30px;
+    
+}
+
+
+.uploadphoto .chosephoto {
+    width: 80px;
+    background: #f1f1f1;
+    border-radius: 20px;
+    position: relative;
+    left: 500px;
+    top: 9px;
+    margin-bottom: 20px; 
+   
+}
+
+.uploadphoto .chosephoto:hover{
+    width: 80px;
+    background: #007bff;
+    border-radius: 20px;
+    position: relative;
+    left: 500px;
+    top: 9px;
+    margin-bottom: 20px; 
+    cursor: pointer;
+   
+}
+
+
+.spanphoto{
+    position: absolute;
+    left: 20px;
+    /* vertical-align: middle; */
+    top: 2px;
+    font-size: 14px;
+}
+
+.box-border .photo{
+        width: 100px;
+    height: 100px;
+  
+    position: relative;
+    left: 482px;
+    top: -20px;
+
+    cursor: pointer;
+    background: #fff;
+    border-style: hidden;
+}
+
+
+#photo{
+    background: #fff;
+}
+.photo .img-photo{ 
+top: 0;
+left: 0;
+width: 100%;
+height: 100%;
+background: #fff;
+overflow: hidden;
+
+cursor: pointer;}
+
+/*.box-border .button-posts {
+
+}*/
+
+.button-posts .btn-post {
+    width: 550px;
+    height: 30px;
+    vertical-align: bottom;
+    font-size: 15px;
+    text-align: center;
+    margin-top: 20px;
+    margin-left: 25px;
+    padding: 0;
+}
+
+
+i.fas.fa-times{
+    position: absolute;
+    top: 2px;
+    left: 2px;
+    color: #DADDE1;
+}
+
+i.fas.fa-times:hover{
+    position: absolute;
+    top: 2px;
+    left: 2px;
+    color: #fff;
+}
+/*box border*/
+
+/*box posts*/
+.card-img-bottom {
+    width: 100%;
+    border-bottom-left-radius: calc(0.25rem - 1px);
+    border-bottom-right-radius: calc(0.25rem - 1px);
+  }
+
+  .card-title {
+    position: relative;
+    left: 70px;
+    top: -35px;
+  }
+
+  .conimg-pos {
+    position: relative;
+    left: 0px;
+    top: 20px;
+}
+
+
+
+i.fas.fa-heart{ 
+position: relative;
+left: 540px;
+top: 10px;
+color: #e74c3c;
+font-size: 24px;
+
+}
+
+.iconopacityshow{
+    opacity: 1;
+}
+
+.iconopacityhid{
+    opacity: 0;
+}
+
+.comments-button{
+    margin-top: 15px;
+    border-top: 1px solid #f5f6f7;
+    border-bottom: 1px solid #f5f6f7;
+}
+
+.btn-comment{
+    border-style: hidden;
+    padding: 5px;
+    width: 296px;
+    margin-top: 5px;
+    background: none;
+    margin-bottom: 5px;
+    font-size: 14px;
+}
+
+.btn-likecolor{
+    border-style: hidden;
+    padding: 5px;
+    width: 296px;
+    margin-top: 5px;
+    background: none;
+    margin-bottom: 5px;
+    font-size: 14px;
+    color:red;
+  
+}
+
+.btn-like{
+    border-style: hidden;
+    padding: 5px;
+    width: 296px;
+    margin-top: 5px;
+    background: none;
+    margin-bottom: 5px;
+    font-size: 14px;
+   
+  
+}
+
+ .btncolor{
+    color:red;
+}
+
+
+
+.btn-like:hover i.far.fa-heart{
+    color: #e74c3c;
+}
+.btn-comment:hover i.far.fa-comment-alt{
+    color: #0097e6;
+}
+
+.btn-comment:hover{
+   
+    background: #f7f7f7;;
+}
+
+.btn-like:hover{
+   
+    background: #f7f7f7;;
+}
+
+
+.text-comment{
+    resize: none;
+    width: 500px;
+    padding: 8px;
+    border-radius: 20px;
+    margin: 0px;
+     background: #efefef; 
+   
+    position: relative;
+    left: 80px;
+    top: -30px;
+    border-style: double;
+    font-size: 14px;
+    padding-left: 20px;
+    padding-right: 20px;
+    overflow: hidden;
+    
+}
+
+
+.text-comment::-webkit-input-placeholder { /* Edge */
+ opacity: 0.6;
+  }
+
+.conimg-comment{
+    width: 50px;
+    height: 50px;
+    border: 0.3px solid #007bff;
+    border-radius: 50%;
+
+    position: relative;
+    top: 10px;
+    left: 20px;
+    cursor: pointer;
+    background: #fff;
+    border-style: hidden;
+}
+
+.conimg-comment .img-comment{
+ 
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: #fff;
+    overflow: hidden;
+    border-radius: 50%;
+    cursor: pointer;
+}
+
+
+.conimg-text{
+    width: 50px;
+    height: 50px;
+    border: 0.3px solid #007bff;
+    border-radius: 50%;
+
+    position: relative;
+    top: 20px;
+    left: 20px;
+    cursor: pointer;
+    background: #fff;
+    border-style: hidden;
+}
+
+.conimg-text .img-text{
+ 
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: #fff;
+    overflow: hidden;
+    border-radius: 50%;
+    cursor: pointer;
+}
+
+
+
+.comments{
+    background-color: var(--blue);
+    border-radius: 18px;
+    box-sizing: border-box;
+    color: #1c1e21;
+    display: inline-block;
+    line-height: 16px;
+    margin: 0;
+    max-width: 80%;
+    word-wrap: break-word;
+    white-space: normal;
+    word-break: break-word;
+    position: relative;
+    top: -25px;
+    left: 80px;
+    padding: 8px 10px;
+}
+
+
+.none{
+    display: none;
+}
+/*box posts*/
+
+ 
+
+span#likes{
+    position: relative;
+    left: 540px;
+    top: 10px;
+    font-size: 24px;
+    font-weight: bold;
+}
+
+.opacity{
+    opacity: 1;
+}
+
+.activety{
+    color: #e74c3c;
+}
+
+/*pop up*/
+
+
+.popup{
+    position: absolute;
+    top: -130px;
+    left: 210px;
+    width: 200px;
+    height: 90px;
+    margin: auto;
+    text-align: center;
+    cursor: pointer;
+    z-index: 1001;
+
+}
+.popup img{
+    width: 200px;
+    height: 200px;
+    cursor: pointer
+}
+.show{
+    z-index: 999;
+    display: none;
+    
+}
+.show .overlay{
+    width: 100%;
+    height: 100%;
+    background: rgba(0,0,0,.9);
+    position: absolute;
+    top: 0;
+    left: 0;
+    position: fixed;
+}
+.show .img-show{
+    width: 600px;
+    height: 400px;
+    background: #FFF;
+
+    overflow: hidden
+}
+
+.img-show img{
+     
+    height: 600px;
+    position: absolute;
+    top: 90px;
+    left: 30%;
+}
+
+.conimg{
+    width: 200px;
+    height: 200px;
+    border: 0.3px solid #007bff;
+    border-radius: 50%;
+    box-shadow: 5px 20px 20px rgba(0,0,0,.10);
+    position: relative;
+    top: -130px;
+    left: 200px;
+    margin-bottom: 70px;
+    cursor: pointer;
+    background: #fff;
+    border-style: hidden;
+}
+
+/*End popup*/
+
+
+div.alot{
+    margin: 20px;
+    }
+    
+    span.commentsw{
+        position: relative;
+        left: 430px;
+        top: 10px;    
+        font-size: 22px;
+        font-weight: bold;
+       
+    }
+   i.fas.fa-comment-alt{
+    font-size: 22px;
+    color: #0097e6;
+    margin-left: 5px;
+    position: relative;
+    left: 430px;
+    top: 12px;  
+   }
+
+   span.date_span{
+    position: relative;
+    left: 70px;
+    top: -40px;
+    font-size: 14px;
+    color: #6f6b6b;
+}
+
+span.date_span:hover{
+    text-decoration: underline;
+    cursor: pointer;
+}
+
+span.date_span2{
+position: relative;
+left: 75px;
+    top: -20px;
+    font-size: 12px;
+    color: #6f6b6b;}
+
+    span.date_span2:hover{
+        text-decoration: underline;
+        cursor: pointer;
+    }
+
+.post-text{
+        margin-left: 30px;  
+ 
+    word-wrap:break-word;
+    margin-right: 30px;
+    }  
+
+    .fontpostsizebig{
+        font-size: 42px;
+        
+    }
+    .fontpostsizesmall{
+        font-size: 24px;
+        
+    }
+
+
+    .uploadtext{
+        position: relative;
+        left: 14px;
+        top: -38px;
+        width: 21px;
+        height: 20px;
+        opacity: 0;
+    }
+
+
+    i.fas.fa-camera.cameratext{
+        position: relative;
+    top: -40px;
+    left: 40px;
+    z-index: 333;
+    font-size: 24px;
+    cursor: pointer;
+    color: #343a40
+    }
+
+    i.fas.fa-camera.cameratext:hover{
+        color: #000000;
+      }
+
+
+      .photor{
+        width: 100px;
+      height: 100px;
+      position: relative;
+      left: 470px;
+      top: -20px;
+      margin-bottom: 20px;
+      cursor: pointer;
+      background: #DADDE1;
+      border-style: hidden;
+      }
+      
+      
+      .photor .img-photor{ 
+      top: 0;
+      left: 0;
+      width: 100%;
+      height: 100%;
+      background: #fff;
+      overflow: hidden;
+      
+      cursor: pointer;}
+
+      i.fas.fa-times{
+        position: absolute;
+        top: 2px;
+        left: 2px;
+        color: #DADDE1;
+      }
+      
+      i.fas.fa-times:hover{
+        position: absolute;
+        top: 2px;
+        left: 2px;
+        color: #fff;
+      }
+      
+      .sendphoto{
+        position: relative;
+        right: -25px;
+        top: -10px;
+        border: none;
+        border-radius: 30px;
+        padding: 1px 10px 1px;
+        background: #00b0ff;
+        color: #fff;
+        font-size: 14px;
+        font-weight: bold;
+      
+      }
+      
+      
+      .sendphoto:hover{
+      
+        background: #048bc7;
+       
+      
+      }
+
+      .commentsphoto{
+        background-color: var(--blue);
+        border-radius: 18px;
+        box-sizing: border-box;
+        color: #1c1e21;
+        display: inline-block;
+        line-height: 16px;
+        margin: 0;
+        max-width: 100%;
+        word-wrap: break-word;
+        white-space: normal;
+        word-break: break-word;
+        position: relative;
+        top: -25px;
+        left: 80px;
+        padding: 8px 8px;
+        margin-top: 40px;
+    }
+
+    .namephoto{
+        position: relative;
+        top: -50px;
+        left: 60px;
+        width: 1;
+        word-wrap: initial;
+        font-size: 18px;
+        font-weight: bold;
+    }

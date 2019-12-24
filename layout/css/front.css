@@ -1,0 +1,332 @@
+
+body{
+    background-color: #f4f4f4;
+    font-size: 16px;
+}
+
+
+
+
+
+h1, .h1 {
+    font-size: 55px;
+    margin: 40px 0 ;
+    font-weight: bold;
+    color: #666;
+}
+
+.form-control{
+    position: relative;
+}
+
+
+
+
+      
+      
+
+      
+      .navbar{
+        display: -ms-flexbox;
+        display: flex;
+        -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+        -ms-flex-align: center;
+        align-items: center;
+        -ms-flex-pack: justify;
+        justify-content: space-between;
+        padding: 0.5px 7px;
+        color:#CAD3C8;
+      
+      }
+      
+.brand{
+    margin-left: 30px;
+    font-size: 24px;
+    
+}
+
+     .navbar-collapse .mo{
+          margin-right: 30px;
+      }
+     
+
+
+/*start header*/
+.upper-bar{
+display: flex;
+padding: 8px;
+background: #fff;
+color: #596275;
+}
+
+.upper-bar a:hover{
+  color:#312f2f;
+    }
+
+    i.fas.fa-sign-out-alt{
+        transform: rotate(180deg);
+        font-size: 24px;
+    }
+
+    i.fas.fa-user-circle{
+        font-size: 24px;
+    }
+
+    i.fas.fa-cart-plus{
+        font-size: 24px;
+        margin-left: 10px;
+    }
+
+    i.fas.fa-home{
+        font-size: 24px;
+        margin-right: 10px;  
+    }  
+
+    i.fab.fa-facebook-messenger{
+
+        font-size: 24px;
+        margin-right: 10px;
+    }
+/*end header*/
+
+    /*start gatagries*/
+
+    .item-box {
+        position: relative;
+    }
+    .item-box .price-tag {
+        font-weight: bold;
+    
+        background: #bebebe;
+        padding: 2px 10px;
+        position: absolute;
+      left: 0;
+        top: 10px;
+        color: #fff;
+    }
+
+
+    /*end gatagries*/
+
+
+
+     /*start login*/
+
+.login-show,
+.Signup-show{
+    max-width: 400px;
+    margin: auto;
+    position: relative;
+}
+
+.login-show input,
+.Signup-show input{
+
+    margin-bottom: 10px;
+}
+
+
+
+  
+
+.input-container{
+    position: relative;
+}
+
+
+.starisc{
+    font-size: 34px;
+    font-weight: bold;
+    position: absolute;
+    right: 10px;
+    top: -2px;
+    color: #d42424;
+    display: none;
+      
+}
+
+.sh{
+    position: absolute;
+    right: 10px;
+    top: 12px;
+   
+}
+
+
+
+.r{
+    color:  #007bff;
+}
+
+.b{
+    color: #28a745;
+}
+
+
+
+.loginpage span{
+    cursor: pointer;
+}
+
+.check{
+    position: absolute;
+    right: -30px;
+    top: 12px;
+    color: #28a745;
+    font-size: 18px;
+
+    opacity: 0;
+    transition: opacity 1s;
+
+}
+
+
+
+.show{
+
+    opacity: 1;
+
+    
+}
+
+
+
+.hide{
+
+    opacity: 0;
+
+    transition: opacity 1s;
+}
+
+
+
+        /*end login*/
+
+        
+     /*start Profile*/
+
+      .block{
+margin: 20px 0  0;
+     }
+
+
+
+
+     .information ul{
+         padding: 0;
+         margin: 0;
+     }
+
+
+     .information ul li{
+         padding: 10px;
+     }
+
+     .information ul li:nth-child(odd){
+         background: #eee;
+     }
+
+     .information ul li span{
+        display: inline-block;
+        width: 120px;
+    }
+
+
+     /*end Profile*/
+
+      /*start newAdvenster*/
+      .selectboxit-container .selectboxit-options {
+
+        width: 490px;
+    
+  
+        max-height: 240px;
+    
+      }
+
+      .selectboxit-container span, .selectboxit-container .selectboxit-options a {
+        height: 46px;
+        line-height: 46px;
+        display: block;
+    }
+
+      /*end newAdvenster*/
+
+
+      .not-chat{
+        background: #f91313;
+        padding: 1px 6px 2px;
+        border-radius: 30px;
+        font-size: 10px;
+        color: #fff;
+        position: relative;
+        left: -39px;
+        top: 15px;
+        font-weight: bold;
+      }
+
+      .not-chat2{
+        background: #f91313;
+        padding: 1px 6px 2px;
+        border-radius: 30px;
+        font-size: 10px;
+        color: #fff;
+        position: relative;
+        top: 15px;
+    left: -40px;
+        font-weight: bold;
+      }
+
+     .notms2,.notms {
+        /* display: none; */
+        width: 0;
+        height: 0;
+    }
+
+      i.fas.fa-list{
+        font-size: 24px;
+        margin-right: 10px;
+      }
+
+      .not3{
+          width: 0;
+          height: 0;
+      }
+        .pops {
+            width: 400px;
+            position: relative;
+            left: 380px;
+            top: 23px;
+            z-index: 444;
+        
+      }
+
+      .li-not{
+        padding: 20px;
+        border-bottom: 1px solid #d4d4d4;
+        padding-bottom: 20px;
+        cursor: pointer;
+      }
+.li-not:last-of-type{
+    border-bottom: none;
+}
+      .li-not:hover{
+    
+        background:  #f4f4f4;
+        
+      }
+
+      .card-bodys {
+  
+        flex: 1 1 auto;
+      
+    }
+
+
+
+  
+
+
+ 
+     
